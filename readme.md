@@ -1,5 +1,7 @@
 # Meshtastic Protobuf Parser for Python
 
+Version modified for 2 separate MQTT brokers (in and out)
+
 ## Local installation
 
 ```bash

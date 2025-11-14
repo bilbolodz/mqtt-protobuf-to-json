@@ -1,18 +1,24 @@
 {
-    "broker": {
-        "address": "mqtt.meshtastic.org",
-        "port": 1883,
-        "user": "meshdev",
-        "password": "large4cats",
-        "buftopic": "msh/US/2/e",
-        "jsontopic": "msh/US/OR/2/json"
+  "source_broker": {
+    "address": "mqtt.meshtastic.org",
+    "port": 1883,
+    "user": "meshdev",
+    "password": "large4cats",
+    "buftopic": "msh/US/2/e"
+  },
+  "destination_broker": {
+    "address": "mqtt.meshtastic.org",
+    "port": 1883,
+    "user": "meshdev",
+    "password": "large4cats",
+    "jsontopic": "msh/US/OR/2/json"
+  },
+  "channels": {
+    "0": {
+      "key": "AQ=="
     },
-    "channels": {
-        "LongFast": {
-            "key": "AQ=="
-        },
-        "ShortSecure": {
-            "key": "BQ=="
-        }
+    "1": {
+      "key": "BQ=="
     }
+  }
 }
